@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JavaScript 테스트</title>
+</head>
+<body>
+  <p id="text">여기를 클릭하면 문구가 바뀝니다.</p>
+  <button onclick="changeText()">문구 변경</button>
+
+  <script>
+    function changeText() {
+      document.getElementById("text").innerHTML = "문구가 바뀌었어요!";
+    }
+  </script>
+</body>
+</html>
